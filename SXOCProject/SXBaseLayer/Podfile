@@ -10,9 +10,4 @@ target 'SXBaseLayer' do
   pod 'AFNetworking'
   pod 'MJExtension'
 
-  target 'SXBaseLayerTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end

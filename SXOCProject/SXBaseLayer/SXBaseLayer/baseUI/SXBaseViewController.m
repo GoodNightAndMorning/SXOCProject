@@ -26,6 +26,9 @@
 -(void)refreshData {
     
 }
+-(BOOL)backAction {
+    return YES;
+}
 #pragma mark - 没有网络处理代码
 +(void)startNetMonitoring {
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];

@@ -11,6 +11,12 @@
 @interface SXBaseViewController : UIViewController
 
 /**
+ 点击导航栏返回按触发事件
+
+ @return YES:返回，NO:不返回
+ */
+-(BOOL)backAction;
+/**
  是否需要显示无网络提示页面
  YES：显示
  NO：不显示

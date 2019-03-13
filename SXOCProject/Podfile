@@ -13,14 +13,4 @@ target 'SXOCProject' do
   pod 'MJRefresh'
   pod 'SDWebImage'
 
-  target 'SXOCProjectTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'SXOCProjectUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
