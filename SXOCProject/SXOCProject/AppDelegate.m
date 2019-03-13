@@ -32,7 +32,10 @@
     [self.window makeKeyAndVisible];
     
     ViewController *vc = [[ViewController alloc] init];
-    self.window.rootViewController = vc;
+    SXBaseNavigationController *navi = [[SXBaseNavigationController alloc] initWithRootViewController:vc];
+    
+    self.window.rootViewController = navi;
+   
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

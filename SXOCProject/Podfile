@@ -12,5 +12,7 @@ target 'SXOCProject' do
   pod 'AFNetworking'
   pod 'MJRefresh'
   pod 'SDWebImage'
+  pod 'MBProgressHUD'
+  pod 'MGJRouter'
 
 end

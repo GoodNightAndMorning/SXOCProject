@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		077D684122393B9900E07124 /* SXRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077D683E22393B8600E07124 /* SXRoute.framework */; };
+		077D684222393B9900E07124 /* SXRoute.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 077D683E22393B8600E07124 /* SXRoute.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		077D6897223944D600E07124 /* SXBaseLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077D6893223944C700E07124 /* SXBaseLayer.framework */; };
+		077D6898223944D600E07124 /* SXBaseLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 077D6893223944C700E07124 /* SXBaseLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		186326752238DEAD0079F64F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186326742238DEAD0079F64F /* AppDelegate.m */; };
 		186326782238DEAD0079F64F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186326772238DEAD0079F64F /* ViewController.m */; };
 		1863267D2238DEAE0079F64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1863267C2238DEAE0079F64F /* Assets.xcassets */; };
@@ -17,19 +21,47 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		077D6807223934EC00E07124 /* PBXContainerItemProxy */ = {
+		077D683D22393B8600E07124 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 077D6802223934EC00E07124 /* SXBaseLayer.xcodeproj */;
+			containerPortal = 077D683822393B8500E07124 /* SXRoute.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 077D681E22393B8500E07124;
+			remoteInfo = SXRoute;
+		};
+		077D683F22393B8600E07124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077D683822393B8500E07124 /* SXRoute.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 077D682722393B8500E07124;
+			remoteInfo = SXRouteTests;
+		};
+		077D684322393B9900E07124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077D683822393B8500E07124 /* SXRoute.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 077D681D22393B8500E07124;
+			remoteInfo = SXRoute;
+		};
+		077D6892223944C700E07124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077D688D223944C700E07124 /* SXBaseLayer.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 186326D32238E3040079F64F;
 			remoteInfo = SXBaseLayer;
 		};
-		077D6809223934EC00E07124 /* PBXContainerItemProxy */ = {
+		077D6894223944C700E07124 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 077D6802223934EC00E07124 /* SXBaseLayer.xcodeproj */;
+			containerPortal = 077D688D223944C700E07124 /* SXBaseLayer.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 186326DC2238E3040079F64F;
 			remoteInfo = SXBaseLayerTests;
+		};
+		077D6899223944D600E07124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077D688D223944C700E07124 /* SXBaseLayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 186326D22238E3040079F64F;
+			remoteInfo = SXBaseLayer;
 		};
 		186326892238DEAE0079F64F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -54,6 +86,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				077D6898223944D600E07124 /* SXBaseLayer.framework in Embed Frameworks */,
+				077D684222393B9900E07124 /* SXRoute.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,7 +96,8 @@
 
 /* Begin PBXFileReference section */
 		0375A6A3F603F2B1431AC060 /* libPods-SXOCProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SXOCProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		077D6802223934EC00E07124 /* SXBaseLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SXBaseLayer.xcodeproj; path = SXBaseLayer/SXBaseLayer.xcodeproj; sourceTree = "<group>"; };
+		077D683822393B8500E07124 /* SXRoute.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SXRoute.xcodeproj; path = SXRoute/SXRoute.xcodeproj; sourceTree = "<group>"; };
+		077D688D223944C700E07124 /* SXBaseLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SXBaseLayer.xcodeproj; path = SXBaseLayer/SXBaseLayer.xcodeproj; sourceTree = "<group>"; };
 		186326702238DEAD0079F64F /* SXOCProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SXOCProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186326732238DEAD0079F64F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		186326742238DEAD0079F64F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,7 +123,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077D6897223944D600E07124 /* SXBaseLayer.framework in Frameworks */,
 				6FF041161A2F8A41A77CB2F2 /* libPods-SXOCProject.a in Frameworks */,
+				077D684122393B9900E07124 /* SXRoute.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,11 +146,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		077D6803223934EC00E07124 /* Products */ = {
+		077D683922393B8500E07124 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				077D6808223934EC00E07124 /* SXBaseLayer.framework */,
-				077D680A223934EC00E07124 /* SXBaseLayerTests.xctest */,
+				077D683E22393B8600E07124 /* SXRoute.framework */,
+				077D684022393B8600E07124 /* SXRouteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077D688E223944C700E07124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077D6893223944C700E07124 /* SXBaseLayer.framework */,
+				077D6895223944C700E07124 /* SXBaseLayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,7 +167,8 @@
 		186326672238DEAD0079F64F = {
 			isa = PBXGroup;
 			children = (
-				077D6802223934EC00E07124 /* SXBaseLayer.xcodeproj */,
+				077D688D223944C700E07124 /* SXBaseLayer.xcodeproj */,
+				077D683822393B8500E07124 /* SXRoute.xcodeproj */,
 				186326722238DEAD0079F64F /* SXOCProject */,
 				1863268B2238DEAE0079F64F /* SXOCProjectTests */,
 				186326962238DEAF0079F64F /* SXOCProjectUITests */,
@@ -209,6 +256,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				077D684422393B9900E07124 /* PBXTargetDependency */,
+				077D689A223944D600E07124 /* PBXTargetDependency */,
 			);
 			name = SXOCProject;
 			productName = SXOCProject;
@@ -286,8 +335,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 077D6803223934EC00E07124 /* Products */;
-					ProjectRef = 077D6802223934EC00E07124 /* SXBaseLayer.xcodeproj */;
+					ProductGroup = 077D688E223944C700E07124 /* Products */;
+					ProjectRef = 077D688D223944C700E07124 /* SXBaseLayer.xcodeproj */;
+				},
+				{
+					ProductGroup = 077D683922393B8500E07124 /* Products */;
+					ProjectRef = 077D683822393B8500E07124 /* SXRoute.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -300,18 +353,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		077D6808223934EC00E07124 /* SXBaseLayer.framework */ = {
+		077D683E22393B8600E07124 /* SXRoute.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SXRoute.framework;
+			remoteRef = 077D683D22393B8600E07124 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		077D684022393B8600E07124 /* SXRouteTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SXRouteTests.xctest;
+			remoteRef = 077D683F22393B8600E07124 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		077D6893223944C700E07124 /* SXBaseLayer.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SXBaseLayer.framework;
-			remoteRef = 077D6807223934EC00E07124 /* PBXContainerItemProxy */;
+			remoteRef = 077D6892223944C700E07124 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		077D680A223934EC00E07124 /* SXBaseLayerTests.xctest */ = {
+		077D6895223944C700E07124 /* SXBaseLayerTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = SXBaseLayerTests.xctest;
-			remoteRef = 077D6809223934EC00E07124 /* PBXContainerItemProxy */;
+			remoteRef = 077D6894223944C700E07124 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -410,6 +477,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		077D684422393B9900E07124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SXRoute;
+			targetProxy = 077D684322393B9900E07124 /* PBXContainerItemProxy */;
+		};
+		077D689A223944D600E07124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SXBaseLayer;
+			targetProxy = 077D6899223944D600E07124 /* PBXContainerItemProxy */;
+		};
 		1863268A2238DEAE0079F64F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1863266F2238DEAD0079F64F /* SXOCProject */;

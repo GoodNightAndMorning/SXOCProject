@@ -19,15 +19,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    [self setUpNavi];
     //网络控制
     [self initNetControl];
+
 }
 -(void)refreshData {
     
 }
 -(BOOL)backAction {
     return YES;
+}
+#pragma mark - 设置navigationController
+-(void)setUpNavi{
+    self.navigationController.navigationBar.translucent = NO;
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:18],NSForegroundColorAttributeName:[UIColor blackColor]}];
+    //    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
+    [self.navigationController.navigationBar setBarTintColor:[UIColor whiteColor]];
+    UIImage *icon = [UIImage imageNamed:@"leftkey"];
+    icon = [icon imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [self.navigationController.navigationBar setBackIndicatorImage:icon];
+    [self.navigationController.navigationBar setBackIndicatorTransitionMaskImage:icon];
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = backItem;
 }
 #pragma mark - 没有网络处理代码
 +(void)startNetMonitoring {
