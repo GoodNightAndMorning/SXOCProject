@@ -10,6 +10,9 @@
 
 #import "SXRequest.h"
 #import "SXBaseModel.h"
+#import "SXBaseViewController.h"
+#import "SXBaseNavigationController.h"
+#import "SXBaseTabBarController.h"
 
 //! Project version number for SXBaseLayer.
 FOUNDATION_EXPORT double SXBaseLayerVersionNumber;

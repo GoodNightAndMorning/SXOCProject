@@ -14,11 +14,11 @@
 		186327022238E3800079F64F /* SXRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 186327002238E3800079F64F /* SXRequest.m */; };
 		1863270E2238E6C40079F64F /* SXBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1863270C2238E6C40079F64F /* SXBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1863270F2238E6C40079F64F /* SXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863270D2238E6C40079F64F /* SXBaseModel.m */; };
-		186327242238F6610079F64F /* SXBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 186327222238F6610079F64F /* SXBaseViewController.h */; };
+		186327242238F6610079F64F /* SXBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 186327222238F6610079F64F /* SXBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		186327252238F6610079F64F /* SXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186327232238F6610079F64F /* SXBaseViewController.m */; };
-		186327282238F6E60079F64F /* SXBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 186327262238F6E60079F64F /* SXBaseNavigationController.h */; };
+		186327282238F6E60079F64F /* SXBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 186327262238F6E60079F64F /* SXBaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		186327292238F6E60079F64F /* SXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186327272238F6E60079F64F /* SXBaseNavigationController.m */; };
-		1863272C2238F7290079F64F /* SXBaseTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1863272A2238F7290079F64F /* SXBaseTabBarController.h */; };
+		1863272C2238F7290079F64F /* SXBaseTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1863272A2238F7290079F64F /* SXBaseTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1863272D2238F7290079F64F /* SXBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863272B2238F7290079F64F /* SXBaseTabBarController.m */; };
 		186327322238FBCF0079F64F /* empty_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186327302238FBCE0079F64F /* empty_icon@2x.png */; };
 		186327332238FBCF0079F64F /* empty_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186327312238FBCE0079F64F /* empty_icon@3x.png */; };

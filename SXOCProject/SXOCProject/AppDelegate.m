@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import <SXBaseLayer/SXBaseLayer.h>
 @interface AppDelegate ()
 
 @end
